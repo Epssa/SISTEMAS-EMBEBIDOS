@@ -1,0 +1,25 @@
+# Archivos de Arduino
+*.ino.preprocessed
+*.ino.with_bootloader.bin
+*.ino.dSYM/
+*.elf
+*.hex
+*.bin
+build/
+
+# Configuración personal (evita subir tus credenciales)
+src/wifi_credentials.h
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporales
+*.log
+*.tmp
