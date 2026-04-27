@@ -3,9 +3,9 @@
 
 #include <WiFi.h>
 
-// Credenciales WiFi (editar antes de subir)
-const char* ssid = "TU_WIFI_SSID";      // Cambiar por tu SSID
-const char* password = "TU_WIFI_PASS";  // Cambiar por tu contraseña
+// Credenciales WiFi 
+const char* ssid = "TU_WIFI_SSID";      
+const char* password = "TU_WIFI_PASS";  
 
 void connectWiFi() {
   WiFi.begin(ssid, password);
